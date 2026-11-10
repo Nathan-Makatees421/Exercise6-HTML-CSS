@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <form>
+    <h1>Contact Form</h1>
+
+    <h2>Enter Firstname</h2>
+  <input type="text" name="first" placeholder="firstname">
+  <h3>Enter Lastname</h3>
+  <input type="text" name="last" placeholder="lastname">
+  <h4>Enter Email Address</h4>
+  <input type="email" name="email" placeholder="Email Address">
+  <H5>Send Message</H5>
+  <textarea name="message" placeholder="Enter Text"></textarea>
+
+  <button type="submit">Submit</button>
+  
+  <h6>Choose A Subject</h6>
+  <label for="subject">Choose a subject</label>
+  <select id="subject" name="subject">
+    <option value="maths">Mathematics</option>
+    <option value="english">English</option>
+    <option value="afrikaans">Afrikaans</option>
+    <option value="business studies">Business Studies</option>
+
+  </select>
+  </form>
+  <table border="1" cellpadding="8" style="border-collapse: collapse; text-align: left; font-family: Arial, Helvetica, sans-serif;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th>Date</th>
+        <th>Time Slot</th>
+        <th>Availability status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday,Nov 09</td>
+        <td>09:00 AM - 10:00 AM</td>
+        <td><strong style="color: green;">Available</strong></td>
+      </tr>
+      <tr>
+        <td>Monday, Nov 09</td>
+        <td>11:30 AM - 12:30 PM</td>
+        <td><strong style="color: green;">Available</strong></td>
+      </tr>
+      <tr>
+        <td>Tuesday, Nov 10</td>
+        <td>02:00 PM - 03:00 PM</td>
+        <td><strong style="color: green;">Available</strong></td>
+      </tr>
+      <tr>
+        <td>Wednesday, Nov 11</td>
+      <td>10:00 AM - 11:00 AM</td>
+      <td><strong style="color: green;">Available</strong></td>
+      </tr>
+      <tr>
+        <td>Wednesday, Nov 11</td>
+        <td>04:15 PM - 05:15 PM</td>
+        <td><strong style="color: green;">Available</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
